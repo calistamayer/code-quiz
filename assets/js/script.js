@@ -1,1 +1,1 @@
-console.log("hello calista");
+var startButtonEl = document.getElementById("start-button");
