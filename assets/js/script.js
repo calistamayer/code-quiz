@@ -5,7 +5,7 @@ var timerDivEl = document.getElementById("timer-div");
 
 // start button click handler and listener
 var startQuiz = function () {
-    quizContainerEl.innerHTML = "What does CSS stand for?";
+    quizContainerEl.innerHTML = questionArray[0].question;
     timerDivEl.innerHTML = "You have 60 seconds left";
 }
 
@@ -20,6 +20,10 @@ var questionArray = [
         incorrect2: "California Style Strategy",
         incorrect3: "Coding Style Script"
     }, {
-        question: ""
+        question: "What is Calista's favorite color?",
+        correct: "Pink",
+        incorrect1: "Blue",
+        incorrect2: "Red",
+        incorrect3: "Yellow"
     }
 ]
